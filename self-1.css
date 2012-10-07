@@ -1,0 +1,94 @@
+html{
+	color:#000;
+	background:#888;
+	padding:20px 0px;
+	font: 12px/18px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdana;
+}
+#wrap{
+	width:960px;
+	margin:0 auto;
+	background-color:#888;
+}
+#top a, #top{
+	color:#fff;
+	margin:60px;
+}
+#header{
+	width:100%; height:105px; background-color:#03497d;
+	border-radius:15px 15px 0 0;
+	border-bottom:1px solid #999;
+}
+#header_top{
+	height:50px; text-align:center;
+	color:white;
+	font:bold 20px/20px "맑은 고딕","궁서체", verdana;
+	padding-top:20px;
+}
+#navbar{
+	width:960px; height:30px; background-color:#03497d;
+}
+#navbar ul{margin:0; padding:0;}
+#navbar ul li{float:left;}
+#navbar ul li a{
+	display:block; margin-left:130px; background-color:#4682b4;
+	border-radius: 30px 30px 0 0;
+	width:120px; padding:0 10px; text-align:center; text-decoration:none;
+	font:bold 13px/30px Tahoma; color:#fff;
+}
+#navbar ul li a:hover{background-color:#94c713;}
+#line{	width:960px; background-color:#94c713; height:5px;}
+#content{
+	width:960px; overflow:auto;
+	padding:0; background-color:#fff;
+}
+#main_content{float:left; width:940px; padding:80px 10px 10px 10px;
+	background:url("Img/Desert.jpg") no-repeat center;
+	background-size: 960px 100%;
+}
+#photo{
+	position:relative;
+	left:110px; top:300px;
+}
+#main_content div.section_3 h1{
+	background-color:#d7e9f9;
+	font:bold 15px/30px verdana;
+	border-radius:5px 5px 0 0;
+	text-align: center;
+}
+#main_content div.section_3{
+	margin-bottom:20px;
+	border-radius:5px 5px 0 0;
+	overflow:auto;
+	line-height:15px;
+}
+#main_content div.section_3 li{
+	font:bold 15px/18px "맑은 고딕", verdana;
+	padding:5px; color:#fff;
+}
+#main_content div.section_3 ul{
+	margin:10px 10px 80px 10px; display:block; width:220px;
+	border-radius:5px 5px 0 0;
+}
+#main_content div.section_3 ol{
+	margin:10px 10px 80px 10px; display:block; width:220px;
+	border-radius:5px 5px 0 0;
+}
+div.section_3 li img{float:left;}
+#right{
+	width:240px;
+	float:right;
+	overflow: auto;
+}
+#left{
+	width:240px;
+	float:left;
+	overflow: auto;
+}
+#footer{
+	text-align:center;
+	background-color:#d5dde2;
+	font-size:13px;
+	line-height: 20px;
+	color:#888;
+	padding:20px;
+}
